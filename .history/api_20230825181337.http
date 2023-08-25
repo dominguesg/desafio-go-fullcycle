@@ -1,0 +1,23 @@
+###
+GET http://localhost:8080/api/routes
+
+
+
+### Create a route ###
+POST http://localhost:8080/api/routes
+Content-Type: application/json
+
+{
+    "Name": "Route 2",
+    "Source": {
+        "Name": "Source 2",
+        "Latitude": 1.0,
+        "Longitude": 1.0
+    },
+    "Destination": {
+        "Name": "Destination 2",
+        "Latitude": 3.0,
+        "Longitude": 4.0
+    }
+}
+
